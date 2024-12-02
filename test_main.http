@@ -1,0 +1,13 @@
+### Crear un entrenador
+POST http://127.0.0.1:8000/entrenadores/
+Content-Type: application/json
+
+{
+  "nombre": "John Doe",
+  "email": "john.doe@example.com",
+  "telefono": "123456789",
+  "especialidad": "Fitness"
+}
+
+### Obtener la lista de entrenadores
+GET http://127.0.0.1:8000/entrenadores/
